@@ -4,11 +4,6 @@ class HomePage {
   }
 
   verifyPageTitle() {
-    /*     cy.title().should(
-      'contain',
-      'Private Health Checks Packages - Starting from'
-    ); */
-
     cy.verifyPageTitle('Private Health Checks Packages - Starting from');
   }
 
